@@ -1,0 +1,250 @@
+2026-02-21T11:43:07.308Z [ERROR] service=scheduler host=web-02 user=diana request_id=req-148690 status=429 latency_ms=332 msg="Healthcheck OK" reason=rate_limited
+2026-02-21T11:54:49.250Z [INFO] service=payments host=ip-10-0-1-12 user=diana request_id=req-138505 status=502 latency_ms=329 msg="Healthcheck OK" error_code=E136
+2026-02-21T13:17:30.745Z [INFO] service=api host=web-01 user=charlie request_id=req-292319 status=404 latency_ms=1373 msg="Upstream timeout"
+2026-02-21T11:21:48.897Z [ERROR] service=db host=web-01 user=diana request_id=req-760013 status=401 latency_ms=2464 msg="Token validated" reason=invalid_token
+2026-02-21T13:26:38.857Z [DEBUG] service=api host=ip-10-0-1-12 user=diana request_id=req-936144 status=409 latency_ms=593 msg="Service stopped"
+2026-02-21T12:13:35.073Z [INFO] service=auth host=ip-10-0-2-31 user=alice request_id=req-131248 status=201 latency_ms=595 msg="Cache hit"
+2026-02-21T13:38:29.396Z [INFO] service=payments host=macbook-pro user=diana request_id=req-543298 status=204 latency_ms=799 msg="Cache hit"
+2026-02-21T13:57:46.257Z [INFO] service=db host=ip-10-0-1-12 user=neel request_id=req-242858 status=409 latency_ms=2140 msg="Invalid payload received"
+2026-02-21T13:53:47.718Z [DEBUG] service=auth host=ip-10-0-1-12 user=bob request_id=req-602036 status=429 latency_ms=2426 msg="DB query executed" reason=rate_limited
+2026-02-21T11:26:23.942Z [ERROR] service=scheduler host=batch-01 user=bob request_id=req-656603 status=502 latency_ms=2168 msg="Permission denied" error_code=E863
+2026-02-21T11:56:00.547Z [ERROR] service=db host=batch-01 user=neel request_id=req-485114 status=409 latency_ms=266 msg="Retrying operation"
+2026-02-21T13:26:11.457Z [INFO] service=payments host=ip-10-0-1-12 user=diana request_id=req-262715 status=200 latency_ms=653 msg="Upstream timeout"
+2026-02-21T12:56:22.319Z [INFO] service=db host=web-01 user=alice request_id=req-679099 status=503 latency_ms=49 msg="Permission denied" error_code=E677
+2026-02-21T13:21:22.670Z [INFO] service=worker host=web-01 user=neel request_id=req-582213 status=401 latency_ms=2194 msg="DB query executed" reason=invalid_token
+2026-02-21T14:14:28.182Z [ERROR] service=auth host=ip-10-0-1-12 user=guest request_id=req-783607 status=404 latency_ms=1757 msg="Request received"
+2026-02-21T11:45:35.490Z [DEBUG] service=orders host=batch-01 user=charlie request_id=req-440676 status=503 latency_ms=724 msg="Rate limit applied" error_code=E795
+2026-02-21T12:40:11.699Z [DEBUG] service=scheduler host=ip-10-0-2-31 user=charlie request_id=req-349138 status=409 latency_ms=1577 msg="Healthcheck failed"
+2026-02-21T12:55:14.312Z [DEBUG] service=payments host=ip-10-0-2-31 user=charlie request_id=req-317032 status=409 latency_ms=1558 msg="Permission denied"
+2026-02-21T12:49:22.065Z [INFO] service=orders host=ip-10-0-1-12 user=alice request_id=req-970267 status=401 latency_ms=454 msg="Cache hit" reason=invalid_token
+2026-02-21T13:40:54.113Z [INFO] service=worker host=ip-10-0-1-12 user=neel request_id=req-439179 status=403 latency_ms=354 msg="Service started"
+2026-02-21T13:03:29.084Z [WARN] service=auth host=ip-10-0-2-31 user=bob request_id=req-101334 status=503 latency_ms=1196 msg="Cache hit" error_code=E513
+2026-02-21T12:25:45.686Z [DEBUG] service=db host=batch-01 user=neel request_id=req-365291 status=503 latency_ms=1021 msg="Cache miss" error_code=E787
+2026-02-21T13:56:55.588Z [WARN] service=orders host=web-01 user=guest request_id=req-159830 status=204 latency_ms=763 msg="Upstream timeout"
+2026-02-21T13:52:47.191Z [INFO] service=api host=web-01 user=alice request_id=req-906366 status=204 latency_ms=71 msg="Token validated"
+2026-02-21T14:08:40.265Z [ERROR] service=payments host=ip-10-0-1-12 user=diana request_id=req-498821 status=201 latency_ms=122 msg="Rate limit applied"
+2026-02-21T11:41:06.049Z [INFO] service=orders host=macbook-pro user=guest request_id=req-585084 status=200 latency_ms=1456 msg="Permission denied"
+2026-02-21T11:50:46.206Z [INFO] service=db host=ip-10-0-2-31 user=charlie request_id=req-140529 status=201 latency_ms=339 msg="Rate limit applied"
+2026-02-21T12:17:34.261Z [INFO] service=orders host=web-02 user=guest request_id=req-990596 status=404 latency_ms=508 msg="Invalid payload received"
+2026-02-21T12:33:01.529Z [INFO] service=auth host=macbook-pro user=neel request_id=req-457535 status=409 latency_ms=2028 msg="Request completed"
+2026-02-21T13:09:27.217Z [DEBUG] service=api host=ip-10-0-1-12 user=alice request_id=req-905778 status=502 latency_ms=118 msg="DB query executed" error_code=E611
+2026-02-21T11:24:37.723Z [DEBUG] service=payments host=ip-10-0-2-31 user=guest request_id=req-828753 status=201 latency_ms=1298 msg="Permission denied"
+2026-02-21T13:02:14.804Z [INFO] service=scheduler host=batch-01 user=diana request_id=req-176482 status=200 latency_ms=1870 msg="Service stopped"
+2026-02-21T12:41:42.187Z [INFO] service=auth host=macbook-pro user=diana request_id=req-988283 status=401 latency_ms=1795 msg="Upstream timeout" reason=invalid_token
+2026-02-21T13:25:54.273Z [INFO] service=scheduler host=web-02 user=guest request_id=req-667681 status=200 latency_ms=897 msg="Service started"
+2026-02-21T11:28:20.101Z [ERROR] service=scheduler host=macbook-pro user=charlie request_id=req-927852 status=502 latency_ms=1927 msg="Service started" error_code=E806
+2026-02-21T14:13:33.784Z [INFO] service=auth host=web-02 user=guest request_id=req-528911 status=503 latency_ms=2043 msg="Invalid payload received" error_code=E679
+2026-02-21T11:44:35.866Z [INFO] service=auth host=web-01 user=diana request_id=req-921127 status=401 latency_ms=204 msg="Upstream timeout" reason=invalid_token
+2026-02-21T14:03:49.477Z [INFO] service=worker host=web-01 user=diana request_id=req-518919 status=200 latency_ms=928 msg="Rate limit applied"
+2026-02-21T11:53:14.309Z [INFO] service=db host=ip-10-0-1-12 user=bob request_id=req-985494 status=404 latency_ms=917 msg="Cache hit"
+2026-02-21T13:43:20.852Z [INFO] service=orders host=ip-10-0-1-12 user=charlie request_id=req-827756 status=204 latency_ms=1802 msg="Rate limit applied"
+2026-02-21T14:02:53.789Z [INFO] service=worker host=batch-01 user=bob request_id=req-784814 status=403 latency_ms=2187 msg="Request completed"
+2026-02-21T11:22:32.830Z [INFO] service=db host=web-02 user=alice request_id=req-339599 status=429 latency_ms=2466 msg="Invalid payload received" reason=rate_limited
+2026-02-21T13:37:35.372Z [INFO] service=auth host=web-02 user=neel request_id=req-639107 status=200 latency_ms=1389 msg="DB connection opened"
+2026-02-21T13:56:26.110Z [INFO] service=api host=macbook-pro user=charlie request_id=req-872944 status=429 latency_ms=686 msg="Invalid payload received" reason=rate_limited
+2026-02-21T11:47:11.523Z [INFO] service=worker host=batch-01 user=diana request_id=req-438424 status=409 latency_ms=1820 msg="Retrying operation"
+2026-02-21T11:36:41.861Z [WARN] service=auth host=batch-01 user=charlie request_id=req-496039 status=400 latency_ms=1483 msg="Upstream timeout"
+2026-02-21T13:24:09.251Z [INFO] service=orders host=ip-10-0-2-31 user=neel request_id=req-403051 status=404 latency_ms=251 msg="Request received"
+2026-02-21T11:52:07.933Z [INFO] service=db host=batch-01 user=guest request_id=req-661713 status=404 latency_ms=1234 msg="Cache miss"
+2026-02-21T11:30:05.061Z [INFO] service=payments host=web-02 user=charlie request_id=req-370564 status=200 latency_ms=2110 msg="Cache hit"
+2026-02-21T12:11:20.322Z [WARN] service=orders host=macbook-pro user=charlie request_id=req-969854 status=401 latency_ms=1100 msg="Cache miss" reason=invalid_token
+2026-02-21T14:03:02.782Z [DEBUG] service=worker host=batch-01 user=neel request_id=req-882070 status=502 latency_ms=1588 msg="Request completed" error_code=E547
+2026-02-21T14:00:11.861Z [DEBUG] service=auth host=web-01 user=guest request_id=req-691622 status=409 latency_ms=1993 msg="Healthcheck OK"
+2026-02-21T14:20:52.799Z [WARN] service=auth host=web-01 user=neel request_id=req-491970 status=201 latency_ms=276 msg="Token validated"
+2026-02-21T13:21:18.782Z [INFO] service=auth host=web-01 user=bob request_id=req-244005 status=401 latency_ms=2311 msg="Service started" reason=invalid_token
+2026-02-21T12:20:50.928Z [INFO] service=worker host=web-02 user=diana request_id=req-743676 status=401 latency_ms=1835 msg="DB connection opened" reason=invalid_token
+2026-02-21T13:38:14.108Z [INFO] service=db host=macbook-pro user=charlie request_id=req-912304 status=429 latency_ms=124 msg="Service started" reason=rate_limited
+2026-02-21T13:08:50.736Z [DEBUG] service=db host=macbook-pro user=bob request_id=req-581896 status=503 latency_ms=1875 msg="Healthcheck OK" error_code=E694
+2026-02-21T13:56:48.496Z [INFO] service=api host=web-02 user=alice request_id=req-159520 status=503 latency_ms=391 msg="Service stopped" error_code=E305
+2026-02-21T13:13:04.772Z [INFO] service=auth host=ip-10-0-1-12 user=neel request_id=req-838786 status=503 latency_ms=2288 msg="Permission denied" error_code=E552
+2026-02-21T13:24:38.756Z [INFO] service=db host=macbook-pro user=neel request_id=req-148255 status=502 latency_ms=1621 msg="Service started" error_code=E553
+2026-02-21T13:06:35.724Z [INFO] service=worker host=batch-01 user=neel request_id=req-816757 status=503 latency_ms=773 msg="DB query executed" error_code=E763
+2026-02-21T12:51:41.675Z [INFO] service=scheduler host=web-01 user=neel request_id=req-882397 status=401 latency_ms=2376 msg="DB query executed" reason=invalid_token
+2026-02-21T12:02:41.106Z [INFO] service=api host=web-02 user=neel request_id=req-383811 status=429 latency_ms=746 msg="DB connection opened" reason=rate_limited
+2026-02-21T11:52:37.372Z [INFO] service=worker host=web-02 user=guest request_id=req-119955 status=401 latency_ms=1527 msg="Permission denied" reason=invalid_token
+2026-02-21T13:58:34.308Z [ERROR] service=worker host=batch-01 user=neel request_id=req-189921 status=201 latency_ms=2187 msg="Token validated"
+2026-02-21T11:35:26.729Z [INFO] service=api host=batch-01 user=guest request_id=req-238133 status=400 latency_ms=436 msg="Service started"
+2026-02-21T13:44:34.303Z [WARN] service=db host=ip-10-0-1-12 user=neel request_id=req-247743 status=403 latency_ms=2256 msg="Service stopped"
+2026-02-21T11:55:40.778Z [INFO] service=worker host=macbook-pro user=diana request_id=req-582601 status=404 latency_ms=2044 msg="Upstream timeout"
+2026-02-21T13:45:27.457Z [INFO] service=orders host=batch-01 user=alice request_id=req-666558 status=503 latency_ms=549 msg="Healthcheck failed" error_code=E723
+2026-02-21T12:44:30.143Z [ERROR] service=orders host=web-02 user=bob request_id=req-209224 status=409 latency_ms=1223 msg="Service stopped"
+2026-02-21T11:41:15.093Z [DEBUG] service=orders host=ip-10-0-1-12 user=charlie request_id=req-565389 status=500 latency_ms=102 msg="DB connection opened" error_code=E409
+2026-02-21T11:51:40.565Z [ERROR] service=auth host=web-02 user=bob request_id=req-642375 status=200 latency_ms=654 msg="Request completed"
+2026-02-21T13:46:01.753Z [WARN] service=scheduler host=web-02 user=charlie request_id=req-206866 status=201 latency_ms=2289 msg="Permission denied"
+2026-02-21T12:58:48.470Z [INFO] service=auth host=macbook-pro user=neel request_id=req-713174 status=409 latency_ms=701 msg="Token validated"
+2026-02-21T13:08:50.438Z [ERROR] service=orders host=batch-01 user=charlie request_id=req-842288 status=404 latency_ms=1499 msg="Cache miss"
+2026-02-21T12:34:22.987Z [INFO] service=auth host=web-01 user=diana request_id=req-600620 status=503 latency_ms=1631 msg="Request received" error_code=E867
+2026-02-21T13:22:46.759Z [INFO] service=worker host=batch-01 user=charlie request_id=req-726787 status=201 latency_ms=2083 msg="Retrying operation"
+2026-02-21T11:50:05.148Z [WARN] service=scheduler host=web-02 user=neel request_id=req-327753 status=201 latency_ms=1644 msg="Cache miss"
+2026-02-21T13:53:54.208Z [INFO] service=orders host=ip-10-0-1-12 user=diana request_id=req-825455 status=204 latency_ms=1948 msg="Upstream timeout"
+2026-02-21T11:36:43.790Z [DEBUG] service=api host=macbook-pro user=charlie request_id=req-475260 status=500 latency_ms=116 msg="Service started" error_code=E955
+2026-02-21T13:55:11.273Z [INFO] service=auth host=macbook-pro user=guest request_id=req-143921 status=200 latency_ms=1185 msg="Request completed"
+2026-02-21T14:22:07.509Z [INFO] service=worker host=web-02 user=alice request_id=req-425893 status=200 latency_ms=2262 msg="Token validated"
+2026-02-21T14:03:52.602Z [INFO] service=worker host=web-01 user=neel request_id=req-896369 status=200 latency_ms=641 msg="Healthcheck failed"
+2026-02-21T14:15:45.644Z [INFO] service=payments host=ip-10-0-2-31 user=neel request_id=req-333628 status=401 latency_ms=1256 msg="Service stopped" reason=invalid_token
+2026-02-21T11:57:19.179Z [DEBUG] service=auth host=web-01 user=alice request_id=req-430041 status=429 latency_ms=2184 msg="Cache hit" reason=rate_limited
+2026-02-21T13:38:00.916Z [INFO] service=db host=ip-10-0-2-31 user=bob request_id=req-705583 status=500 latency_ms=86 msg="Retrying operation" error_code=E648
+2026-02-21T12:24:54.227Z [DEBUG] service=auth host=web-02 user=diana request_id=req-568231 status=403 latency_ms=994 msg="Healthcheck OK"
+2026-02-21T13:39:48.121Z [WARN] service=orders host=ip-10-0-2-31 user=neel request_id=req-162286 status=404 latency_ms=2097 msg="Permission denied"
+2026-02-21T11:21:42.695Z [INFO] service=scheduler host=batch-01 user=alice request_id=req-514770 status=503 latency_ms=2196 msg="Rate limit applied" error_code=E159
+2026-02-21T11:56:40.887Z [INFO] service=api host=web-02 user=bob request_id=req-674742 status=403 latency_ms=2000 msg="Permission denied"
+2026-02-21T13:16:31.503Z [ERROR] service=payments host=web-02 user=diana request_id=req-217243 status=201 latency_ms=1784 msg="Permission denied"
+2026-02-21T13:05:22.284Z [WARN] service=api host=web-02 user=alice request_id=req-992107 status=500 latency_ms=541 msg="Healthcheck OK" error_code=E334
+2026-02-21T12:11:51.930Z [INFO] service=scheduler host=web-02 user=neel request_id=req-126455 status=502 latency_ms=213 msg="Request received" error_code=E701
+2026-02-21T13:11:07.956Z [WARN] service=db host=web-02 user=diana request_id=req-511672 status=204 latency_ms=1675 msg="Service stopped"
+2026-02-21T14:12:27.674Z [DEBUG] service=api host=web-01 user=neel request_id=req-692113 status=200 latency_ms=615 msg="Service started"
+2026-02-21T14:16:37.410Z [INFO] service=worker host=web-01 user=neel request_id=req-545440 status=503 latency_ms=941 msg="Retrying operation" error_code=E758
+2026-02-21T13:32:29.146Z [ERROR] service=scheduler host=web-01 user=neel request_id=req-270451 status=429 latency_ms=487 msg="DB connection opened" reason=rate_limited
+2026-02-21T13:26:07.493Z [INFO] service=api host=ip-10-0-2-31 user=guest request_id=req-706511 status=403 latency_ms=1883 msg="Retrying operation"
+2026-02-21T11:25:13.408Z [DEBUG] service=payments host=ip-10-0-2-31 user=guest request_id=req-343810 status=503 latency_ms=1676 msg="Retrying operation" error_code=E569
+2026-02-21T12:03:09.475Z [INFO] service=db host=ip-10-0-1-12 user=bob request_id=req-272045 status=404 latency_ms=2356 msg="DB connection opened"
+2026-02-21T13:19:23.657Z [INFO] service=api host=web-02 user=charlie request_id=req-395553 status=409 latency_ms=957 msg="Request received"
+2026-02-21T11:38:38.550Z [WARN] service=api host=ip-10-0-2-31 user=bob request_id=req-334555 status=409 latency_ms=898 msg="Request completed"
+2026-02-21T14:12:04.885Z [DEBUG] service=auth host=ip-10-0-2-31 user=neel request_id=req-664545 status=500 latency_ms=1165 msg="Upstream timeout" error_code=E128
+2026-02-21T14:08:39.773Z [ERROR] service=db host=ip-10-0-2-31 user=guest request_id=req-944251 status=503 latency_ms=1047 msg="DB connection opened" error_code=E425
+2026-02-21T12:45:26.025Z [INFO] service=worker host=ip-10-0-2-31 user=neel request_id=req-155248 status=401 latency_ms=743 msg="DB query executed" reason=invalid_token
+2026-02-21T13:35:11.683Z [WARN] service=api host=batch-01 user=charlie request_id=req-596019 status=409 latency_ms=2062 msg="Rate limit applied"
+2026-02-21T11:43:17.384Z [INFO] service=orders host=web-01 user=charlie request_id=req-116497 status=403 latency_ms=742 msg="DB connection opened"
+2026-02-21T13:35:50.155Z [INFO] service=api host=ip-10-0-1-12 user=diana request_id=req-729600 status=502 latency_ms=2385 msg="Service started" error_code=E710
+2026-02-21T12:04:57.039Z [INFO] service=orders host=web-01 user=bob request_id=req-911303 status=401 latency_ms=665 msg="Request completed" reason=invalid_token
+2026-02-21T12:14:37.488Z [ERROR] service=scheduler host=web-01 user=guest request_id=req-792419 status=200 latency_ms=366 msg="Request completed"
+2026-02-21T12:26:05.574Z [DEBUG] service=auth host=macbook-pro user=guest request_id=req-347259 status=400 latency_ms=2174 msg="Request completed"
+2026-02-21T12:22:41.598Z [INFO] service=db host=batch-01 user=diana request_id=req-973307 status=503 latency_ms=440 msg="Request completed" error_code=E805
+2026-02-21T13:57:36.129Z [WARN] service=orders host=batch-01 user=diana request_id=req-853958 status=429 latency_ms=52 msg="Service started" reason=rate_limited
+2026-02-21T13:30:08.212Z [INFO] service=orders host=web-01 user=bob request_id=req-943966 status=404 latency_ms=1168 msg="Request received"
+2026-02-21T12:37:13.875Z [INFO] service=api host=macbook-pro user=diana request_id=req-151630 status=400 latency_ms=48 msg="Token validated"
+2026-02-21T12:36:33.172Z [INFO] service=auth host=web-02 user=diana request_id=req-466754 status=200 latency_ms=598 msg="Cache miss"
+2026-02-21T11:56:52.242Z [INFO] service=worker host=ip-10-0-1-12 user=guest request_id=req-922099 status=503 latency_ms=797 msg="Request received" error_code=E611
+2026-02-21T13:33:21.340Z [INFO] service=worker host=ip-10-0-1-12 user=guest request_id=req-296631 status=401 latency_ms=1764 msg="Request completed" reason=invalid_token
+2026-02-21T14:19:56.911Z [DEBUG] service=worker host=ip-10-0-1-12 user=guest request_id=req-921814 status=204 latency_ms=2063 msg="Permission denied"
+2026-02-21T11:48:14.537Z [INFO] service=worker host=web-01 user=neel request_id=req-398611 status=200 latency_ms=326 msg="Token validated"
+2026-02-21T13:18:06.470Z [INFO] service=api host=web-02 user=bob request_id=req-923363 status=500 latency_ms=1641 msg="Invalid payload received" error_code=E168
+2026-02-21T12:52:16.482Z [INFO] service=scheduler host=web-02 user=charlie request_id=req-752218 status=400 latency_ms=983 msg="Permission denied"
+2026-02-21T12:14:23.602Z [INFO] service=scheduler host=ip-10-0-1-12 user=neel request_id=req-346362 status=503 latency_ms=1746 msg="Token validated" error_code=E635
+2026-02-21T14:18:50.568Z [WARN] service=worker host=web-01 user=alice request_id=req-284799 status=403 latency_ms=1018 msg="Request received"
+2026-02-21T12:30:47.517Z [INFO] service=scheduler host=ip-10-0-2-31 user=charlie request_id=req-789208 status=404 latency_ms=1055 msg="Healthcheck failed"
+2026-02-21T11:48:45.964Z [ERROR] service=worker host=macbook-pro user=diana request_id=req-205615 status=200 latency_ms=1300 msg="Healthcheck failed"
+2026-02-21T11:30:27.122Z [INFO] service=payments host=batch-01 user=bob request_id=req-430653 status=429 latency_ms=1228 msg="Service stopped" reason=rate_limited
+2026-02-21T13:06:56.442Z [INFO] service=scheduler host=ip-10-0-1-12 user=alice request_id=req-887772 status=400 latency_ms=1504 msg="Cache miss"
+2026-02-21T12:23:39.442Z [INFO] service=payments host=ip-10-0-1-12 user=charlie request_id=req-766074 status=403 latency_ms=1618 msg="Cache hit"
+2026-02-21T11:54:18.890Z [INFO] service=db host=ip-10-0-2-31 user=alice request_id=req-444289 status=401 latency_ms=2121 msg="Request completed" reason=invalid_token
+2026-02-21T11:35:30.101Z [ERROR] service=api host=web-01 user=alice request_id=req-264628 status=201 latency_ms=1123 msg="Request completed"
+2026-02-21T12:49:10.053Z [INFO] service=payments host=batch-01 user=bob request_id=req-173886 status=200 latency_ms=1089 msg="Upstream timeout"
+2026-02-21T11:57:09.780Z [WARN] service=db host=web-01 user=neel request_id=req-497472 status=409 latency_ms=520 msg="Service stopped"
+2026-02-21T14:17:36.571Z [WARN] service=db host=macbook-pro user=diana request_id=req-105212 status=503 latency_ms=210 msg="Permission denied" error_code=E740
+2026-02-21T12:54:28.141Z [INFO] service=orders host=macbook-pro user=bob request_id=req-364789 status=403 latency_ms=1635 msg="Cache hit"
+2026-02-21T11:25:28.133Z [INFO] service=orders host=web-01 user=guest request_id=req-313152 status=429 latency_ms=2366 msg="Retrying operation" reason=rate_limited
+2026-02-21T13:43:06.651Z [INFO] service=worker host=ip-10-0-2-31 user=guest request_id=req-586310 status=409 latency_ms=1578 msg="Healthcheck OK"
+2026-02-21T11:43:41.595Z [DEBUG] service=worker host=web-02 user=charlie request_id=req-840885 status=404 latency_ms=1685 msg="Request completed"
+2026-02-21T13:28:14.864Z [INFO] service=worker host=ip-10-0-2-31 user=bob request_id=req-969664 status=500 latency_ms=2241 msg="Token validated" error_code=E673
+2026-02-21T12:39:26.482Z [ERROR] service=auth host=web-01 user=bob request_id=req-552116 status=500 latency_ms=876 msg="Service stopped" error_code=E668
+2026-02-21T13:35:25.855Z [WARN] service=worker host=ip-10-0-2-31 user=bob request_id=req-469823 status=403 latency_ms=648 msg="Cache miss"
+2026-02-21T13:25:55.448Z [ERROR] service=scheduler host=web-02 user=bob request_id=req-375656 status=502 latency_ms=1508 msg="Cache hit" error_code=E579
+2026-02-21T12:20:52.268Z [WARN] service=scheduler host=batch-01 user=guest request_id=req-208944 status=503 latency_ms=1205 msg="DB query executed" error_code=E243
+2026-02-21T13:32:24.428Z [DEBUG] service=orders host=web-02 user=charlie request_id=req-925734 status=502 latency_ms=202 msg="Request received" error_code=E148
+2026-02-21T12:41:35.904Z [WARN] service=api host=ip-10-0-2-31 user=charlie request_id=req-576194 status=404 latency_ms=860 msg="Request completed"
+2026-02-21T12:55:00.856Z [INFO] service=scheduler host=macbook-pro user=alice request_id=req-247550 status=400 latency_ms=1073 msg="Cache hit"
+2026-02-21T12:06:24.683Z [INFO] service=payments host=ip-10-0-1-12 user=charlie request_id=req-248128 status=404 latency_ms=316 msg="Cache hit"
+2026-02-21T12:20:46.993Z [WARN] service=db host=macbook-pro user=diana request_id=req-683967 status=204 latency_ms=2366 msg="Service started"
+2026-02-21T13:13:58.110Z [INFO] service=scheduler host=macbook-pro user=bob request_id=req-494589 status=404 latency_ms=1414 msg="Request received"
+2026-02-21T12:32:00.274Z [ERROR] service=payments host=web-02 user=charlie request_id=req-517674 status=409 latency_ms=265 msg="Healthcheck OK"
+2026-02-21T12:27:24.970Z [INFO] service=payments host=web-01 user=alice request_id=req-500695 status=204 latency_ms=2197 msg="Upstream timeout"
+2026-02-21T11:24:14.822Z [INFO] service=api host=macbook-pro user=diana request_id=req-878657 status=400 latency_ms=2336 msg="Upstream timeout"
+2026-02-21T12:20:40.143Z [INFO] service=worker host=macbook-pro user=charlie request_id=req-277395 status=429 latency_ms=2437 msg="Invalid payload received" reason=rate_limited
+2026-02-21T12:58:42.266Z [INFO] service=api host=ip-10-0-1-12 user=neel request_id=req-442030 status=409 latency_ms=2454 msg="Request completed"
+2026-02-21T14:00:29.095Z [INFO] service=db host=macbook-pro user=diana request_id=req-774307 status=204 latency_ms=371 msg="Service stopped"
+2026-02-21T11:47:20.867Z [INFO] service=auth host=batch-01 user=guest request_id=req-452749 status=409 latency_ms=2041 msg="Permission denied"
+2026-02-21T12:16:42.342Z [INFO] service=payments host=web-01 user=diana request_id=req-386887 status=201 latency_ms=1866 msg="Request completed"
+2026-02-21T13:10:32.503Z [WARN] service=db host=web-01 user=charlie request_id=req-959952 status=404 latency_ms=2111 msg="Retrying operation"
+2026-02-21T13:37:50.115Z [INFO] service=auth host=web-01 user=bob request_id=req-898099 status=502 latency_ms=1033 msg="Permission denied" error_code=E719
+2026-02-21T14:13:22.691Z [INFO] service=db host=web-02 user=charlie request_id=req-834768 status=200 latency_ms=2204 msg="Request completed"
+2026-02-21T11:29:13.492Z [INFO] service=auth host=macbook-pro user=diana request_id=req-370003 status=409 latency_ms=2083 msg="Token validated"
+2026-02-21T12:31:56.201Z [INFO] service=api host=web-01 user=bob request_id=req-678876 status=204 latency_ms=1717 msg="Healthcheck failed"
+2026-02-21T14:19:37.884Z [INFO] service=scheduler host=batch-01 user=diana request_id=req-652067 status=404 latency_ms=142 msg="Permission denied"
+2026-02-21T13:11:26.156Z [DEBUG] service=db host=web-02 user=alice request_id=req-890182 status=404 latency_ms=395 msg="Cache miss"
+2026-02-21T12:37:20.221Z [INFO] service=api host=macbook-pro user=diana request_id=req-163368 status=201 latency_ms=1435 msg="Permission denied"
+2026-02-21T13:13:55.790Z [INFO] service=api host=web-01 user=alice request_id=req-232612 status=500 latency_ms=965 msg="Invalid payload received" error_code=E680
+2026-02-21T11:26:11.131Z [INFO] service=worker host=ip-10-0-2-31 user=guest request_id=req-736854 status=401 latency_ms=80 msg="Invalid payload received" reason=invalid_token
+2026-02-21T12:26:53.255Z [INFO] service=worker host=macbook-pro user=guest request_id=req-952268 status=204 latency_ms=1597 msg="DB query executed"
+2026-02-21T11:39:18.772Z [WARN] service=worker host=web-02 user=alice request_id=req-775573 status=401 latency_ms=1062 msg="Rate limit applied" reason=invalid_token
+2026-02-21T14:20:07.999Z [ERROR] service=scheduler host=ip-10-0-2-31 user=diana request_id=req-893161 status=429 latency_ms=256 msg="Service stopped" reason=rate_limited
+2026-02-21T13:53:37.676Z [ERROR] service=worker host=macbook-pro user=neel request_id=req-677177 status=400 latency_ms=2485 msg="Request received"
+2026-02-21T12:01:01.983Z [INFO] service=auth host=ip-10-0-2-31 user=diana request_id=req-629462 status=201 latency_ms=2270 msg="Request received"
+2026-02-21T12:03:21.197Z [INFO] service=scheduler host=ip-10-0-2-31 user=charlie request_id=req-753698 status=502 latency_ms=414 msg="Service stopped" error_code=E207
+2026-02-21T12:41:04.121Z [INFO] service=orders host=web-02 user=neel request_id=req-494026 status=403 latency_ms=765 msg="Healthcheck failed"
+2026-02-21T12:47:54.672Z [INFO] service=api host=web-02 user=charlie request_id=req-548679 status=204 latency_ms=1145 msg="Service started"
+2026-02-21T13:04:07.606Z [INFO] service=payments host=web-01 user=bob request_id=req-578985 status=404 latency_ms=2152 msg="Rate limit applied"
+2026-02-21T12:59:19.141Z [INFO] service=db host=ip-10-0-1-12 user=neel request_id=req-128894 status=429 latency_ms=1682 msg="Invalid payload received" reason=rate_limited
+2026-02-21T13:37:37.421Z [INFO] service=api host=ip-10-0-2-31 user=guest request_id=req-698738 status=204 latency_ms=558 msg="Request completed"
+2026-02-21T13:45:28.934Z [INFO] service=scheduler host=ip-10-0-1-12 user=guest request_id=req-345994 status=201 latency_ms=662 msg="Invalid payload received"
+2026-02-21T14:17:27.928Z [INFO] service=db host=web-02 user=charlie request_id=req-389733 status=429 latency_ms=628 msg="Cache hit" reason=rate_limited
+2026-02-21T13:45:04.730Z [DEBUG] service=auth host=web-01 user=alice request_id=req-588788 status=409 latency_ms=486 msg="Cache hit"
+2026-02-21T12:08:24.453Z [INFO] service=payments host=macbook-pro user=diana request_id=req-482381 status=204 latency_ms=1603 msg="Service stopped"
+2026-02-21T12:58:38.933Z [INFO] service=payments host=web-02 user=diana request_id=req-119571 status=500 latency_ms=259 msg="Request completed" error_code=E732
+2026-02-21T13:51:03.524Z [INFO] service=worker host=batch-01 user=diana request_id=req-659790 status=503 latency_ms=1497 msg="Healthcheck OK" error_code=E931
+2026-02-21T12:22:45.324Z [INFO] service=payments host=macbook-pro user=alice request_id=req-236530 status=401 latency_ms=1124 msg="Request completed" reason=invalid_token
+2026-02-21T12:19:21.101Z [INFO] service=api host=web-01 user=neel request_id=req-771559 status=200 latency_ms=435 msg="Upstream timeout"
+2026-02-21T13:07:17.355Z [ERROR] service=worker host=ip-10-0-1-12 user=guest request_id=req-339380 status=200 latency_ms=1353 msg="Upstream timeout"
+2026-02-21T13:00:02.877Z [WARN] service=scheduler host=ip-10-0-1-12 user=charlie request_id=req-210314 status=502 latency_ms=1773 msg="Cache miss" error_code=E751
+2026-02-21T13:15:53.934Z [INFO] service=api host=macbook-pro user=charlie request_id=req-608157 status=404 latency_ms=640 msg="Rate limit applied"
+2026-02-21T12:52:54.295Z [DEBUG] service=auth host=batch-01 user=diana request_id=req-820820 status=200 latency_ms=609 msg="Service stopped"
+2026-02-21T14:00:41.618Z [WARN] service=api host=web-02 user=alice request_id=req-573759 status=200 latency_ms=1020 msg="Request received"
+2026-02-21T11:51:01.688Z [INFO] service=payments host=web-02 user=neel request_id=req-141650 status=409 latency_ms=844 msg="Healthcheck OK"
+2026-02-21T11:22:04.363Z [ERROR] service=scheduler host=web-01 user=charlie request_id=req-575057 status=401 latency_ms=312 msg="Cache miss" reason=invalid_token
+2026-02-21T13:59:48.970Z [WARN] service=scheduler host=macbook-pro user=diana request_id=req-967235 status=409 latency_ms=2385 msg="Request received"
+2026-02-21T14:21:35.354Z [WARN] service=scheduler host=web-01 user=guest request_id=req-391559 status=204 latency_ms=1511 msg="Request completed"
+2026-02-21T14:09:16.709Z [DEBUG] service=auth host=ip-10-0-1-12 user=guest request_id=req-438283 status=503 latency_ms=2314 msg="Rate limit applied" error_code=E803
+2026-02-21T13:37:06.874Z [WARN] service=scheduler host=web-02 user=bob request_id=req-455553 status=204 latency_ms=630 msg="Invalid payload received"
+2026-02-21T12:55:51.585Z [INFO] service=auth host=batch-01 user=charlie request_id=req-752259 status=201 latency_ms=854 msg="Request completed"
+2026-02-21T12:29:34.476Z [INFO] service=orders host=web-01 user=neel request_id=req-204522 status=200 latency_ms=1681 msg="DB query executed"
+2026-02-21T12:06:01.567Z [WARN] service=payments host=ip-10-0-2-31 user=bob request_id=req-234155 status=201 latency_ms=1120 msg="Cache hit"
+2026-02-21T11:52:13.175Z [INFO] service=worker host=web-02 user=bob request_id=req-669297 status=429 latency_ms=2109 msg="Token validated" reason=rate_limited
+2026-02-21T14:07:58.715Z [INFO] service=scheduler host=batch-01 user=guest request_id=req-855776 status=400 latency_ms=699 msg="Cache hit"
+2026-02-21T13:38:08.321Z [INFO] service=api host=batch-01 user=alice request_id=req-124168 status=401 latency_ms=631 msg="Permission denied" reason=invalid_token
+2026-02-21T13:10:25.389Z [INFO] service=scheduler host=web-01 user=charlie request_id=req-883630 status=201 latency_ms=1685 msg="Token validated"
+2026-02-21T11:52:43.479Z [INFO] service=worker host=web-01 user=guest request_id=req-243852 status=204 latency_ms=2089 msg="Rate limit applied"
+2026-02-21T14:09:38.794Z [INFO] service=auth host=ip-10-0-1-12 user=alice request_id=req-830397 status=500 latency_ms=2305 msg="DB connection opened" error_code=E618
+2026-02-21T13:17:19.528Z [ERROR] service=payments host=batch-01 user=bob request_id=req-217660 status=429 latency_ms=384 msg="Request received" reason=rate_limited
+2026-02-21T12:36:48.117Z [INFO] service=worker host=web-02 user=charlie request_id=req-488818 status=400 latency_ms=1027 msg="Rate limit applied"
+2026-02-21T12:08:32.571Z [INFO] service=scheduler host=web-02 user=charlie request_id=req-806681 status=403 latency_ms=426 msg="Healthcheck failed"
+2026-02-21T12:41:27.958Z [INFO] service=db host=batch-01 user=bob request_id=req-587948 status=502 latency_ms=1592 msg="Cache miss" error_code=E618
+2026-02-21T13:49:34.466Z [DEBUG] service=orders host=web-01 user=bob request_id=req-654392 status=429 latency_ms=883 msg="Token validated" reason=rate_limited
+2026-02-21T13:24:35.071Z [INFO] service=scheduler host=macbook-pro user=alice request_id=req-205646 status=401 latency_ms=793 msg="Service started" reason=invalid_token
+2026-02-21T13:48:15.960Z [INFO] service=db host=ip-10-0-2-31 user=diana request_id=req-533105 status=204 latency_ms=1998 msg="DB query executed"
+2026-02-21T13:57:52.653Z [WARN] service=payments host=ip-10-0-2-31 user=alice request_id=req-754717 status=204 latency_ms=1989 msg="Rate limit applied"
+2026-02-21T13:31:27.435Z [INFO] service=orders host=batch-01 user=guest request_id=req-265663 status=503 latency_ms=543 msg="Rate limit applied" error_code=E144
+2026-02-21T12:55:28.345Z [INFO] service=worker host=batch-01 user=bob request_id=req-916201 status=201 latency_ms=1000 msg="Healthcheck OK"
+2026-02-21T11:53:27.852Z [INFO] service=scheduler host=web-02 user=guest request_id=req-295301 status=403 latency_ms=832 msg="Request completed"
+2026-02-21T13:21:14.884Z [INFO] service=db host=batch-01 user=charlie request_id=req-353159 status=500 latency_ms=1630 msg="Healthcheck failed" error_code=E256
+2026-02-21T13:00:54.236Z [INFO] service=db host=batch-01 user=neel request_id=req-873436 status=200 latency_ms=90 msg="Rate limit applied"
+2026-02-21T12:53:27.830Z [INFO] service=api host=macbook-pro user=diana request_id=req-142686 status=400 latency_ms=2467 msg="Request completed"
+2026-02-21T13:18:46.559Z [WARN] service=worker host=ip-10-0-1-12 user=bob request_id=req-924866 status=204 latency_ms=2278 msg="Request completed"
+2026-02-21T11:59:52.225Z [WARN] service=api host=batch-01 user=neel request_id=req-565490 status=404 latency_ms=1844 msg="Retrying operation"
+2026-02-21T12:42:39.432Z [INFO] service=scheduler host=web-02 user=bob request_id=req-117848 status=404 latency_ms=427 msg="Rate limit applied"
+2026-02-21T13:52:44.328Z [ERROR] service=auth host=ip-10-0-2-31 user=bob request_id=req-266264 status=502 latency_ms=1857 msg="Service stopped" error_code=E181
+2026-02-21T12:44:48.752Z [ERROR] service=payments host=ip-10-0-2-31 user=diana request_id=req-248070 status=204 latency_ms=77 msg="Invalid payload received"
+2026-02-21T14:11:41.353Z [INFO] service=db host=macbook-pro user=diana request_id=req-449638 status=403 latency_ms=1473 msg="Invalid payload received"
+2026-02-21T11:46:54.461Z [DEBUG] service=orders host=web-01 user=charlie request_id=req-611294 status=404 latency_ms=536 msg="Request received"
+2026-02-21T13:21:17.890Z [INFO] service=api host=ip-10-0-1-12 user=guest request_id=req-504534 status=400 latency_ms=820 msg="DB connection opened"
+2026-02-21T12:12:00.070Z [INFO] service=db host=batch-01 user=bob request_id=req-587327 status=200 latency_ms=737 msg="Rate limit applied"
+2026-02-21T13:29:30.412Z [DEBUG] service=worker host=web-02 user=alice request_id=req-523038 status=204 latency_ms=879 msg="Token validated"
+2026-02-21T13:20:55.560Z [INFO] service=payments host=ip-10-0-1-12 user=bob request_id=req-979515 status=503 latency_ms=1585 msg="Token validated" error_code=E876
+2026-02-21T11:37:14.219Z [WARN] service=payments host=ip-10-0-1-12 user=alice request_id=req-513382 status=401 latency_ms=422 msg="Healthcheck failed" reason=invalid_token
+2026-02-21T13:06:29.870Z [INFO] service=db host=web-02 user=bob request_id=req-651918 status=400 latency_ms=808 msg="Healthcheck OK"
+2026-02-21T14:10:54.360Z [INFO] service=db host=macbook-pro user=diana request_id=req-883667 status=204 latency_ms=1262 msg="Cache miss"
+2026-02-21T11:53:55.698Z [INFO] service=scheduler host=macbook-pro user=neel request_id=req-749286 status=429 latency_ms=2244 msg="Request received" reason=rate_limited
+2026-02-21T13:25:05.349Z [ERROR] service=scheduler host=web-01 user=guest request_id=req-668093 status=500 latency_ms=1665 msg="DB query executed" error_code=E210
+2026-02-21T11:31:45.299Z [INFO] service=scheduler host=web-02 user=diana request_id=req-437918 status=404 latency_ms=1172 msg="Request received"
+2026-02-21T13:40:25.309Z [INFO] service=payments host=web-02 user=alice request_id=req-791565 status=201 latency_ms=659 msg="Retrying operation"
+2026-02-21T12:17:59.911Z [DEBUG] service=api host=batch-01 user=neel request_id=req-475840 status=500 latency_ms=657 msg="Cache hit" error_code=E998
+2026-02-21T12:24:28.472Z [INFO] service=db host=web-01 user=guest request_id=req-837240 status=429 latency_ms=64 msg="Service stopped" reason=rate_limited
+2026-02-21T12:46:42.634Z [INFO] service=scheduler host=batch-01 user=diana request_id=req-646176 status=403 latency_ms=402 msg="Cache hit"
+2026-02-21T13:39:06.979Z [INFO] service=db host=macbook-pro user=diana request_id=req-518661 status=204 latency_ms=1626 msg="Service started"
+2026-02-21T14:05:23.148Z [DEBUG] service=api host=batch-01 user=bob request_id=req-567939 status=201 latency_ms=1093 msg="Request completed"
+2026-02-21T11:53:52.460Z [INFO] service=auth host=batch-01 user=alice request_id=req-742102 status=404 latency_ms=685 msg="Service started"
+2026-02-21T13:50:53.077Z [INFO] service=scheduler host=web-02 user=diana request_id=req-151168 status=404 latency_ms=1241 msg="Token validated"
+2026-02-21T13:15:59.938Z [INFO] service=worker host=batch-01 user=bob request_id=req-291979 status=401 latency_ms=1740 msg="Service started" reason=invalid_token
+2026-02-21T13:49:46.386Z [DEBUG] service=payments host=batch-01 user=alice request_id=req-973767 status=502 latency_ms=1791 msg="Rate limit applied" error_code=E929
+2026-02-21T12:03:40.632Z [ERROR] service=auth host=web-01 user=diana request_id=req-901463 status=502 latency_ms=2471 msg="Token validated" error_code=E435
+2026-02-21T11:33:21.589Z [ERROR] service=auth host=ip-10-0-2-31 user=charlie request_id=req-592315 status=409 latency_ms=1094 msg="DB query executed"
+2026-02-21T12:13:21.494Z [DEBUG] service=scheduler host=ip-10-0-1-12 user=neel request_id=req-850618 status=502 latency_ms=2128 msg="Cache miss" error_code=E616
